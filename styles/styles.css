@@ -223,7 +223,7 @@ main {
     background-image: url("../images/assets/handshake.jpg");
     background-repeat: no-repeat;
     margin-bottom: 50px;
-    
+
 }
 
 .input {
@@ -237,21 +237,32 @@ main {
     border-radius: 8px;
     background: rgb(255, 255, 255);
 }
+
 .btn-primary {
-    background-color:black;
+    background-color: black;
     color: white;
     padding: 20px 30px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     border: none;
     border-radius: 5px;
-  }
+}
 
-.support-heading{
+.support-heading {
     margin-bottom: 20px;
     color: white;
 }
-.support-description{
+
+.support-description {
     margin-bottom: 10px;
     color: aliceblue;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
 }
